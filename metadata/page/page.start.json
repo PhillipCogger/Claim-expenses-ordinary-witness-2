@@ -13,8 +13,10 @@
   "steps": [
     "page.case-details",
     "page.your-details",
+    "page.days-at-court",
     "page.claim-for-travel-costs",
-    "page.public-transport"
+    "page.public-transport",
+    "page.private-transport"
   ],
   "url": "/"
 }

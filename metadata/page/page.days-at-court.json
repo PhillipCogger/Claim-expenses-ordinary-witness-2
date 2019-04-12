@@ -1,0 +1,19 @@
+{
+  "_id": "page.days-at-court",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.days-at-court--date.auto_name__10",
+      "_type": "date",
+      "hint": "For example, 01 08 2007",
+      "label": "Date",
+      "name": "date_at_court",
+      "repeatable": true,
+      "repeatableAdd": "Add another date",
+      "repeatableDelete": "Remove date",
+      "repeatableMaximum": 10
+    }
+  ],
+  "heading": "When were you at court?",
+  "url": "days-at-court"
+}
