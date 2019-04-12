@@ -1,15 +1,25 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "This service is for defence witnesses in criminal court cases to make a claim for expenses.\r\n\r\nAs a defence witness, you can make a claim for:\r\n\r\n* travel costs\r\n* accommodation\r\n* meals and refreshments\r\n* financial loss (for example, earnings and childcare costs)",
+  "body": "Use this service to make a claim for expenses as a defence witness.\r\n\r\nYou can make a claim for:\r\n\r\n* travel costs to and from court\r\n* accommodation, if you stayed overnight\r\n* meals and refreshments\r\n* financial loss (for example, earnings or childcare costs)",
   "components": [
     {
-      "_id": "page.start--inset",
-      "_type": "inset",
+      "_id": "page.start--content",
+      "_type": "content",
+      "html": "### Before you start\r\n\r\nTo make a claim for loss of earnings, you'll need to ask for:\r\n\r\n* a signed letter from your employer which shows your daily income\r\n* signed confirmation from the childminder of the cost of child-minding, if you used one"
+    }
+  ],
+  "extraComponents": [
+    {
+      "_id": "page.start--content--2",
+      "_type": "content",
       "html": "Find out [how HM Courts and Tribunals Service uses personal information](https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service/about/personal-information-charter)."
     }
   ],
   "heading": "Make a claim for expenses as a defence witness",
-  "steps": [],
+  "steps": [
+    "page.case-details",
+    "page.your-details"
+  ],
   "url": "/"
 }
