@@ -48,6 +48,13 @@
       "_type": "text",
       "label": "Postcode",
       "name": "auto_name__8"
+    },
+    {
+      "_id": "page.your-details--number.auto_name__9",
+      "_type": "number",
+      "hint": "We may need to contact you about this claim",
+      "label": "Telephone number",
+      "name": "auto_name__9"
     }
   ],
   "heading": "Your details",

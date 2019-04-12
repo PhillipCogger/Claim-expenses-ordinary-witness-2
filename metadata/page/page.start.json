@@ -11,15 +11,16 @@
   ],
   "extraComponents": [
     {
-      "_id": "page.start--content--2",
-      "_type": "content",
+      "_id": "page.start--inset",
+      "_type": "inset",
       "html": "Find out [how HM Courts and Tribunals Service uses personal information](https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service/about/personal-information-charter)."
     }
   ],
   "heading": "Make a claim for expenses as a defence witness",
   "steps": [
     "page.case-details",
-    "page.your-details"
+    "page.your-details",
+    "page.dates-at-court"
   ],
   "url": "/"
 }

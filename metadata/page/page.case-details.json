@@ -5,16 +5,16 @@
     {
       "_id": "page.case-details--text.auto_name__1",
       "_type": "text",
-      "label": "Case name",
+      "label": "Name of the defendant or the appellant",
       "name": "auto_name__1"
     },
     {
       "_id": "page.case-details--number.auto_name__2",
       "_type": "number",
-      "label": "Case number",
+      "label": "Case number (if you know it)",
       "name": "auto_name__2"
     }
   ],
-  "heading": "Information about the case",
+  "heading": "Case information",
   "url": "case-details"
 }

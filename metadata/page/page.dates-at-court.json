@@ -1,0 +1,33 @@
+{
+  "_id": "page.dates-at-court",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.dates-at-court--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.dates-at-court--fieldset--date.auto_name__10",
+          "_type": "date",
+          "name": "auto_name__10"
+        },
+        {
+          "_id": "page.dates-at-court--fieldset--number.auto_name__11",
+          "_type": "number",
+          "label": "Number of hours",
+          "name": "number_of_hours"
+        }
+      ],
+      "hint": "For example, 01 08 2007",
+      "legend": "Date",
+      "model": "model_auto__1",
+      "repeatable": true,
+      "repeatableAdd": "Add more dates",
+      "repeatableDelete": "Remove date",
+      "repeatableMaximum": 10
+    }
+  ],
+  "heading": "When were you at court?",
+  "lede": "You can add multiple dates",
+  "url": "dates-at-court"
+}
