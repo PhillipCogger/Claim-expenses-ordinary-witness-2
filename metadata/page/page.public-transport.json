@@ -5,7 +5,7 @@
     {
       "_id": "page.public-transport--radios.auto_name__11",
       "_type": "radios",
-      "hint": "You can only make a claim for 2nd Class travel",
+      "hint": "You can only make a claim for travel up to 2nd Class",
       "items": [
         {
           "_id": "page.public-transport--radios.auto_name__11--radio.auto_value__3",
@@ -26,7 +26,7 @@
   ],
   "enableSteps": true,
   "steps": [
-    "page.claim-details"
+    "page.public-transport-costs"
   ],
   "url": "public-transport"
 }

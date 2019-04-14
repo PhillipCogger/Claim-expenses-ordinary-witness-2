@@ -1,0 +1,33 @@
+{
+  "_id": "page.public-transport-costs",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.public-transport-costs--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.public-transport-costs--fieldset--text.auto_name__13",
+          "_type": "text",
+          "hint": "For example, bus, train or tram",
+          "label": "Type of transport",
+          "name": "type_of_transport"
+        },
+        {
+          "_id": "page.public-transport-costs--fieldset--number.auto_name__14",
+          "_type": "number",
+          "hint": "For example, £22.50",
+          "label": "Amount paid",
+          "name": "amount_paid"
+        }
+      ],
+      "model": "model_auto__1",
+      "repeatable": true,
+      "repeatableAdd": "Add another claim",
+      "repeatableDelete": "Remove claim",
+      "repeatableMaximum": 10
+    }
+  ],
+  "heading": "Public transport costs",
+  "url": "/public-transport-costs"
+}
