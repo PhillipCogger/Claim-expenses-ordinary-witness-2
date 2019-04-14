@@ -1,26 +1,32 @@
 {
   "_id": "page.public-transport-costs",
   "_type": "page.form",
+  "body": "Add costs for each day you used public transport.",
   "components": [
     {
       "_id": "page.public-transport-costs--fieldset",
       "_type": "fieldset",
       "components": [
         {
-          "_id": "page.public-transport-costs--fieldset--text.auto_name__13",
-          "_type": "text",
-          "hint": "For example, bus, train or tram",
-          "label": "Type of transport",
-          "name": "type_of_transport"
+          "_id": "page.public-transport-costs--fieldset--date.auto_name__12",
+          "_type": "date",
+          "name": "auto_name__12"
         },
         {
-          "_id": "page.public-transport-costs--fieldset--number.auto_name__14",
+          "_id": "page.public-transport-costs--fieldset--text.auto_name__16",
+          "_type": "text",
+          "hint": "For example, bus, train or tram",
+          "label": "Transport used",
+          "name": "auto_name__16"
+        },
+        {
+          "_id": "page.public-transport-costs--fieldset--number.auto_name__17",
           "_type": "number",
-          "hint": "For example, £22.50",
           "label": "Amount paid",
-          "name": "amount_paid"
+          "name": "auto_name__17"
         }
       ],
+      "hint": "For example, 01 08 2019",
       "model": "model_auto__1",
       "repeatable": true,
       "repeatableAdd": "Add another claim",
@@ -29,5 +35,5 @@
     }
   ],
   "heading": "Public transport costs",
-  "url": "/public-transport-costs"
+  "url": "public-transport-costs"
 }

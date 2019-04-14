@@ -1,7 +1,14 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this service to make a claim for expenses as a defence witness.\r\n\r\nYou can make a claim for:\r\n\r\n* travel costs to and from court\r\n* accommodation, if you stayed overnight\r\n* meals and refreshments\r\n* financial loss (for example, earnings or childcare costs)",
+  "body": "Use this service to make a claim for expenses as a defence witness.\r\n\r\nYou can make a claim for:\r\n\r\n* travel costs to and from court\r\n* accommodation, if you stayed overnight\r\n* meals and refreshments\r\n* loss of earnings or childcare costs",
+  "components": [
+    {
+      "_id": "page.start--inset",
+      "_type": "inset",
+      "html": "To make a claim for loss of earnings, you'll need to ask for a signed letter from your employer which shows your daily income."
+    }
+  ],
   "extraComponents": [
     {
       "_id": "page.start--content",
@@ -13,10 +20,10 @@
   "steps": [
     "page.case-details",
     "page.your-details",
-    "page.days-in-court",
     "page.claim-for-travel-costs",
     "page.public-transport",
-    "page.private-transport"
+    "page.private-transport",
+    "page.other-types-of-transport"
   ],
   "url": "/"
 }

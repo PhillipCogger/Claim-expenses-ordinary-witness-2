@@ -1,0 +1,33 @@
+{
+  "_id": "page.other-types-of-transport",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.other-types-of-transport--radios.auto_name__13",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.other-types-of-transport--radios.auto_name__13--radio.auto_value__7",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.other-types-of-transport--radios.auto_name__13--radio.auto_value__7--textarea.auto_name__14",
+            "_type": "textarea",
+            "label": "Say what other types of transport you used and why.",
+            "name": "auto_name__14"
+          },
+          "label": "Yes",
+          "value": "auto_value__7"
+        },
+        {
+          "_id": "page.other-types-of-transport--radios.auto_name__13--radio.auto_value__8",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__8"
+        }
+      ],
+      "legend": "Did you use other types of transport?",
+      "name": "auto_name__13"
+    }
+  ],
+  "url": "other-types-of-transport"
+}
