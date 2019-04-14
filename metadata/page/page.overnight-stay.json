@@ -1,0 +1,33 @@
+{
+  "_id": "page.overnight-stay",
+  "_type": "page.form",
+  "body": "You can't claim for a meals and refreshments during the day if you stayed overnight.",
+  "components": [
+    {
+      "_id": "page.overnight-stay--radios.auto_name__26",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.overnight-stay--radios.auto_name__26--radio.auto_value__3",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__3"
+        },
+        {
+          "_id": "page.overnight-stay--radios.auto_name__26--radio.auto_value__9",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__9"
+        }
+      ],
+      "name": "auto_name__26"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Did you stay overnight?",
+  "steps": [
+    "page.overnight-stay-details",
+    "page.accommodation-cost-per-night"
+  ],
+  "url": "overnight-stay"
+}

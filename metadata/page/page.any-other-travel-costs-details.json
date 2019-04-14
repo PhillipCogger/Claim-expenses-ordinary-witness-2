@@ -1,0 +1,37 @@
+{
+  "_id": "page.any-other-travel-costs-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.any-other-travel-costs-details--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.any-other-travel-costs-details--fieldset--date.auto_name__28",
+          "_type": "date",
+          "name": "auto_name__28"
+        },
+        {
+          "_id": "page.any-other-travel-costs-details--fieldset--number.auto_name__29",
+          "_type": "number",
+          "label": "Amount paid",
+          "name": "auto_name__29"
+        },
+        {
+          "_id": "page.any-other-travel-costs-details--fieldset--fileupload.auto_name__30",
+          "_type": "fileupload",
+          "label": "Attach receipt",
+          "name": "auto_name__30"
+        }
+      ],
+      "legend": "Claim",
+      "model": "model_auto__3",
+      "repeatable": true,
+      "repeatableAdd": "Add another claim",
+      "repeatableDelete": "Remove claim",
+      "repeatableMaximum": 5
+    }
+  ],
+  "heading": "Other costs",
+  "url": "any-other-travel-costs-details"
+}

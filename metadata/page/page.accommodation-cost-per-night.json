@@ -1,0 +1,30 @@
+{
+  "_id": "page.accommodation-cost-per-night",
+  "_type": "page.form",
+  "body": "Add all costs for accommodation (hotel or hostel), plus any meals and refreshments you had during this period.",
+  "components": [
+    {
+      "_id": "page.accommodation-cost-per-night--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.accommodation-cost-per-night--fieldset--number.auto_name__33",
+          "_type": "number",
+          "label": "Amount paid",
+          "name": "auto_name__33"
+        },
+        {
+          "_id": "page.accommodation-cost-per-night--fieldset--fileupload.auto_name__34",
+          "_type": "fileupload",
+          "label": "Attach receipt",
+          "name": "auto_name__34"
+        }
+      ],
+      "model": "model_auto__4",
+      "repeatable": true,
+      "repeatableMaximum": 5
+    }
+  ],
+  "heading": "Overnight costs",
+  "url": "accommodation-cost-per-night"
+}

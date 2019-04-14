@@ -1,0 +1,18 @@
+{
+  "_id": "page.overnight-stay-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.overnight-stay-details--date.auto_name__32",
+      "_type": "date",
+      "label": "Claim",
+      "name": "auto_name__32",
+      "repeatable": true,
+      "repeatableAdd": "Add another claim",
+      "repeatableDelete": "Remove claim",
+      "repeatableMaximum": 5
+    }
+  ],
+  "heading": "When did you stay overnight?",
+  "url": "days-stayed-overnight"
+}

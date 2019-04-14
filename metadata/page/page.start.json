@@ -20,10 +20,12 @@
   "steps": [
     "page.case-details",
     "page.your-details",
+    "page.days-at-court",
     "page.claim-for-travel-costs",
     "page.public-transport",
     "page.private-transport",
-    "page.other-types-of-transport"
+    "page.other-types-of-transport",
+    "page.overnight-stay"
   ],
   "url": "/"
 }

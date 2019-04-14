@@ -9,6 +9,12 @@
         {
           "_id": "page.private-transport--radios.auto_name__15--radio.auto_value__5",
           "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.private-transport--radios.auto_name__15--radio.auto_value__5--textarea.auto_name__19",
+            "_type": "textarea",
+            "label": "Say what type of transport you used and why.",
+            "name": "auto_name__19"
+          },
           "label": "Yes",
           "value": "auto_value__5"
         },
@@ -22,6 +28,11 @@
       "legend": "Did you use your own transport?",
       "name": "auto_name__15"
     }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.miles-travelled",
+    "page.additional-costs"
   ],
   "url": "private-transport"
 }

@@ -1,0 +1,32 @@
+{
+  "_id": "page.additional-costs",
+  "_type": "page.form",
+  "body": "For example, parking, Congestion Charge, or Passenger Supplement.",
+  "components": [
+    {
+      "_id": "page.additional-costs--radios.auto_name__27",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.additional-costs--radios.auto_name__27--radio.auto_value__5",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__5"
+        },
+        {
+          "_id": "page.additional-costs--radios.auto_name__27--radio.auto_value__7",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__7"
+        }
+      ],
+      "name": "auto_name__27"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Were there any other travel costs?",
+  "steps": [
+    "page.any-other-travel-costs-details"
+  ],
+  "url": "additional-costs"
+}
