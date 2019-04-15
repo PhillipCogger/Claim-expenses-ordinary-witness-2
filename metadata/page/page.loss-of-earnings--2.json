@@ -1,0 +1,76 @@
+{
+  "_id": "page.loss-of-earnings--2",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.loss-of-earnings--2--text.auto_name__46",
+      "_type": "text",
+      "label": "Occupation",
+      "name": "auto_name__46"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.loss-of-earnings--2--text.auto_name__47",
+      "_type": "text",
+      "label": "Employer",
+      "name": "auto_name__47"
+    },
+    {
+      "_id": "page.loss-of-earnings--2--text.auto_name__48",
+      "_type": "text",
+      "hint": "Building number or name",
+      "label": "Employer's address",
+      "name": "auto_name__48"
+    },
+    {
+      "_id": "page.loss-of-earnings--2--text.auto_name__49",
+      "_type": "text",
+      "label": "Street",
+      "name": "auto_name__49"
+    },
+    {
+      "_id": "page.loss-of-earnings--2--text.auto_name__50",
+      "_type": "text",
+      "label": "Town or city",
+      "name": "auto_name__50"
+    },
+    {
+      "_id": "page.loss-of-earnings--2--text.auto_name__51",
+      "_type": "text",
+      "label": "County",
+      "name": "auto_name__51"
+    },
+    {
+      "_id": "page.loss-of-earnings--2--text.auto_name__52",
+      "_type": "text",
+      "label": "Postcode",
+      "name": "auto_name__52"
+    },
+    {
+      "_id": "page.loss-of-earnings--2--number.auto_name__53",
+      "_type": "number",
+      "label": "Employer's phone",
+      "name": "auto_name__53"
+    },
+    {
+      "_id": "page.loss-of-earnings--2--number.auto_name__54",
+      "_type": "number",
+      "label": "Pay/work reference",
+      "name": "auto_name__54"
+    }
+  ],
+  "heading": "Loss of earnings",
+  "show": {
+    "identifier": "auto_name__31",
+    "operator": "is",
+    "value": "auto_value__13"
+  },
+  "url": "loss-of-earnings"
+}

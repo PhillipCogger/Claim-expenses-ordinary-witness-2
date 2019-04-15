@@ -1,0 +1,40 @@
+{
+  "_id": "page.self-employed-loss-of-earnings",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.self-employed-loss-of-earnings--number.auto_name__44",
+      "_type": "number",
+      "label": "How many days are you claiming for?",
+      "name": "auto_name__44"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.self-employed-loss-of-earnings--number.auto_name__45",
+      "_type": "number",
+      "hint": "Under 4 hours",
+      "label": "How many half days are you claiming for?",
+      "name": "auto_name__45"
+    },
+    {
+      "_id": "page.self-employed-loss-of-earnings--number.auto_name__43",
+      "_type": "number",
+      "label": "How much are you claiming per day?",
+      "name": "auto_name__43"
+    }
+  ],
+  "heading": "Self-employed loss of earnings",
+  "show": {
+    "identifier": "auto_name__31",
+    "operator": "is",
+    "value": "auto_value__12"
+  },
+  "url": "self-employed-loss-of-earnings"
+}

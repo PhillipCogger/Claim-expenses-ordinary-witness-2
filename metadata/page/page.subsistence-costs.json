@@ -34,5 +34,10 @@
     }
   ],
   "heading": "Meals and refreshments costs",
+  "show": {
+    "identifier": "auto_name__26",
+    "operator": "is",
+    "value": "auto_value__3"
+  },
   "url": "subsistence-costs"
 }

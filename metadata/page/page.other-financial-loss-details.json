@@ -1,0 +1,18 @@
+{
+  "_id": "page.other-financial-loss-details",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.other-financial-loss-details--textarea.auto_name__42",
+      "_type": "textarea",
+      "label": "What other financial loss have you had?",
+      "name": "auto_name__42"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__40",
+    "operator": "is",
+    "value": "auto_value__16"
+  },
+  "url": "other-financial-loss-details"
+}

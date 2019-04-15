@@ -25,7 +25,10 @@
     "page.public-transport",
     "page.private-transport",
     "page.other-types-of-transport",
-    "page.overnight-stay"
+    "page.overnight-stay",
+    "page.financial-loss",
+    "page.check-your-answers",
+    "page.thanks-for-submitting-you-expenses"
   ],
   "url": "/"
 }

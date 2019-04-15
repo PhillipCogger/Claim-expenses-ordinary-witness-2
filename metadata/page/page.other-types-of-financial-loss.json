@@ -1,0 +1,37 @@
+{
+  "_id": "page.other-types-of-financial-loss",
+  "_type": "page.form",
+  "body": "For example, you might have had to pay for a childminder while you were at court.",
+  "components": [
+    {
+      "_id": "page.other-types-of-financial-loss--radios.auto_name__40",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.other-types-of-financial-loss--radios.auto_name__40--radio.auto_value__16",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__16"
+        },
+        {
+          "_id": "page.other-types-of-financial-loss--radios.auto_name__40--radio.auto_value__17",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__17"
+        }
+      ],
+      "name": "auto_name__40"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Do you want to make a claim for other types of financial loss?",
+  "show": {
+    "identifier": "auto_name__39",
+    "operator": "is",
+    "value": "auto_value__10"
+  },
+  "steps": [
+    "page.other-financial-loss-details"
+  ],
+  "url": "other-types-of-financial-loss"
+}

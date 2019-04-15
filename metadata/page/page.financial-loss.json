@@ -1,0 +1,32 @@
+{
+  "_id": "page.financial-loss",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.financial-loss--radios.auto_name__39",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.financial-loss--radios.auto_name__39--radio.auto_value__10",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__10"
+        },
+        {
+          "_id": "page.financial-loss--radios.auto_name__39--radio.auto_value__11",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__11"
+        }
+      ],
+      "legend": "Do you want to make a claim for financial loss?",
+      "name": "auto_name__39"
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.loss-of-earnings",
+    "page.other-types-of-financial-loss"
+  ],
+  "url": "financial-loss"
+}

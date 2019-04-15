@@ -25,6 +25,11 @@
   ],
   "enableSteps": true,
   "heading": "Were there any other travel costs?",
+  "show": {
+    "identifier": "auto_name__10",
+    "operator": "is",
+    "value": "auto_value__1"
+  },
   "steps": [
     "page.any-other-travel-costs-details"
   ],

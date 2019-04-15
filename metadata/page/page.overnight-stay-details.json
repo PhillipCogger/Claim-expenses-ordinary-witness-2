@@ -10,5 +10,10 @@
     }
   ],
   "heading": "How many nights did you stay?",
+  "show": {
+    "identifier": "auto_name__26",
+    "operator": "is",
+    "value": "auto_value__3"
+  },
   "url": "how-many-nights"
 }

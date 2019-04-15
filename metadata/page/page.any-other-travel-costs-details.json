@@ -32,6 +32,11 @@
       "repeatableMaximum": 5
     }
   ],
-  "heading": "Other costs",
+  "heading": "Other travel costs",
+  "show": {
+    "identifier": "auto_name__27",
+    "operator": "is",
+    "value": "auto_value__5"
+  },
   "url": "any-other-travel-costs-details"
 }
