@@ -27,7 +27,8 @@
   "heading": "Did you stay overnight?",
   "steps": [
     "page.overnight-stay-details",
-    "page.accommodation-cost-per-night"
+    "page.accommodation-cost-per-night",
+    "page.subsistence-costs"
   ],
   "url": "overnight-stay"
 }
