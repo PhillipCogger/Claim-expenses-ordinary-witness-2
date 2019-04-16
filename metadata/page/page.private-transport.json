@@ -31,8 +31,8 @@
   ],
   "enableSteps": true,
   "steps": [
-    "page.miles-travelled",
-    "page.additional-costs"
+    "page.additional-costs",
+    "page.own-transport-details"
   ],
   "url": "private-transport"
 }

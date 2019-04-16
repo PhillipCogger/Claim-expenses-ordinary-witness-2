@@ -1,0 +1,39 @@
+{
+  "_id": "page.court-you-were-at",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.court-you-were-at--radios.auto_name__55",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.court-you-were-at--radios.auto_name__55--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Court of Appeal",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.court-you-were-at--radios.auto_name__55--radio.auto_value__1--2",
+          "_type": "radio",
+          "label": "Crown Court",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.court-you-were-at--radios.auto_name__55--radio.auto_value__1--3",
+          "_type": "radio",
+          "label": "Youth Court",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.court-you-were-at--radios.auto_name__55--radio.auto_value__1--4",
+          "_type": "radio",
+          "label": "Magistrates Court",
+          "value": "auto_value__1"
+        }
+      ],
+      "name": "auto_name__55"
+    }
+  ],
+  "heading": "Which court did you go to?",
+  "url": "court-you-were-at"
+}

@@ -1,7 +1,7 @@
 {
   "_id": "page.subsistence-costs",
   "_type": "page.form",
-  "body": "Add all costs for meals and refreshments during your overnight stay.",
+  "body": "Add all costs for meals and snacks (including drinks) during your overnight stay.",
   "components": [
     {
       "_id": "page.subsistence-costs--fieldset",
@@ -33,7 +33,7 @@
       "repeatableMaximum": 10
     }
   ],
-  "heading": "Meals and refreshments costs",
+  "heading": "Costs for meals and snacks",
   "show": {
     "identifier": "auto_name__26",
     "operator": "is",

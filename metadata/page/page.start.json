@@ -20,6 +20,7 @@
   "steps": [
     "page.case-details",
     "page.your-details",
+    "page.court-you-were-at",
     "page.days-at-court",
     "page.claim-for-travel-costs",
     "page.public-transport",

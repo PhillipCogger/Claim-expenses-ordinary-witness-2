@@ -1,0 +1,36 @@
+{
+  "_id": "page.own-transport-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.own-transport-details--date.auto_name__21",
+      "_type": "date",
+      "hint": "For example, 01 08 2019",
+      "label": "**Date of journey**",
+      "name": "auto_name__21"
+    },
+    {
+      "_id": "page.own-transport-details--number.auto_name__56",
+      "_type": "number",
+      "hint": "Enter the postcode for the address where you started your journey",
+      "label": "**Journey start**",
+      "name": "auto_name__56"
+    },
+    {
+      "_id": "page.own-transport-details--text.auto_name__57",
+      "_type": "text",
+      "hint": "For example, car, motorbike or bicycle",
+      "label": "**Type of transport**",
+      "name": "auto_name__57"
+    },
+    {
+      "_id": "page.own-transport-details--number.auto_name__58",
+      "_type": "number",
+      "hint": "Enter a number to the nearest mile",
+      "label": "**Mileage**",
+      "name": "auto_name__58"
+    }
+  ],
+  "heading": "Own transport details",
+  "url": "own-transport-details"
+}
