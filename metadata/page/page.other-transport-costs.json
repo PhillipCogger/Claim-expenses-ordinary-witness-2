@@ -31,7 +31,10 @@
           "_id": "page.other-transport-costs--fieldset--fileupload.auto_name__25",
           "_type": "fileupload",
           "label": "Attach receipt",
-          "name": "auto_name__25"
+          "name": "auto_name__25",
+          "validation": {
+            "required": false
+          }
         }
       ],
       "legend": "Claim",

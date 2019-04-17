@@ -22,7 +22,10 @@
           "_id": "page.accommodation-cost-per-night--fieldset--fileupload.auto_name__35",
           "_type": "fileupload",
           "label": "Attach receipt",
-          "name": "auto_name__35"
+          "name": "auto_name__35",
+          "validation": {
+            "required": false
+          }
         }
       ],
       "legend": "Claim",

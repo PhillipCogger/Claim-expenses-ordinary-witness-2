@@ -30,7 +30,10 @@
           "_id": "page.any-other-travel-costs-details--fieldset--fileupload.auto_name__59",
           "_type": "fileupload",
           "label": "**Attach receipt**",
-          "name": "auto_name__59"
+          "name": "auto_name__59",
+          "validation": {
+            "required": false
+          }
         }
       ],
       "hint": "For example, 01 08 2019",

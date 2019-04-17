@@ -22,7 +22,10 @@
           "_id": "page.subsistence-costs--fieldset--fileupload.auto_name__38",
           "_type": "fileupload",
           "label": "Attach receipt",
-          "name": "auto_name__38"
+          "name": "auto_name__38",
+          "validation": {
+            "required": false
+          }
         }
       ],
       "legend": "Claim",
