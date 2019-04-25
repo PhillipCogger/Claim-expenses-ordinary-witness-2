@@ -29,7 +29,7 @@
         }
       ],
       "legend": "Claim",
-      "model": "model_auto__5",
+      "namespace": "namespace_auto__5",
       "repeatable": true,
       "repeatableAdd": "Add another claim",
       "repeatableDelete": "Remove claim",
